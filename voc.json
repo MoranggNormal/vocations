@@ -1,0 +1,51 @@
+{
+  "MAGES": {
+    "gainCap": 30,
+    "gainHp": {
+      "amount": 15,
+      "byTicks": 5,
+      "every": "5s"
+    },
+    "gainMana": {
+      "amount": 30,
+      "byTicks": 8,
+      "every": "5s"
+    },
+    "attackSpeed": "2s",
+    "basesSpeed": 220,
+    "manaMultiplier": {
+      "druid": 1.0,
+      "sorcerer": 0.6
+    },
+    "shielding": 1.5,
+    "others": [2.0, "all"]
+  },
+  "MASTER SORCERER": {
+    "gainCap": 45,
+    "gainHp": {
+      "amount": 25,
+      "byTicks": 12,
+      "every": "4s"
+    },
+    "gainMana": {
+      "amount": 40,
+      "byTicks": 20,
+      "every": "4s"
+    },
+    "basesSpeed": 320
+  },
+  "ELDER DRUID": {
+    "gainCap": 55,
+    "gainHp": {
+      "amount": 30,
+      "byTicks": 12,
+      "every": "4s"
+    },
+    "gainMana": {
+      "amount": 50,
+      "byTicks": 20,
+      "every": "4s"
+    },
+    "basesSpeed": 320
+  }
+}
